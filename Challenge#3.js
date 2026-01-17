@@ -33,4 +33,4 @@ const john = {
     }
 }
 
-console.log((mark.calcBMI() > john.calcBMI())?`${mark.fullName}'s BMI (${mark.bmi}) is higher thank ${john.fullName}'s BMI (${john.bmi})!`:`${john.fullName}'s BMI (${john.bmi}) is higher thank ${mark.fullName}'s BMI (${mark.bmi})!` );
+console.log((mark.calcBMI() > john.calcBMI())?`${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s BMI (${john.bmi})!`:`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})!` );
