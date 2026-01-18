@@ -42,3 +42,11 @@ function calcTips() {
 }
 
 calcTips();
+
+//Bonus
+function calcAverage(arr){
+    let sum = 0
+    for(let i = 0; i < arr.length-1; i++){
+        sum = sum + arr[i];
+    }
+}
